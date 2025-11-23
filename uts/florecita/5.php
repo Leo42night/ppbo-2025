@@ -1,0 +1,34 @@
+<?php
+class Matematika {
+    const PI = 3.14;
+    private static $counter = 0;
+
+    public static function hitungLuasLingkaran($r) {
+        self::$counter++;
+        $luas = self::PI * $r * $r;
+        
+        if (fmod($luas, 1) == 0) {
+            return (int)$luas;
+        }
+        return round($luas, 2);
+    }
+
+    public static function getCounter() {
+        return self::$counter;
+    }
+}
+
+// MAIN
+echo "Luas lingkaran (r=7): " . Matematika::hitungLuasLingkaran(7) . "\n";
+echo "Luas lingkaran (r=10): " . Matematika::hitungLuasLingkaran(10) . "\n";
+echo "Method hitungLuasLingkaran dipanggil sebanyak ". Matematika::getCounter() ." kali\n";
+?>
+
+
+<!-- 
+// Tampilkan berapa kali method sudah dipanggil
+// echo "Method hitungLuasLingkaran dipanggil sebanyak: " . Matematika∶∶getCounter() . " kali\n";
+// Hasil output yang diharapkan:
+// Luas lingkaran (r=7): 153.86
+// Luas lingkaran (r=10): 314
+// Method hitungLuasLingkaran dipanggil sebanyak: 2 kali -->

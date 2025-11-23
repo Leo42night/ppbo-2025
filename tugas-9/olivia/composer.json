@@ -1,0 +1,16 @@
+{
+    "name": "gemini/oop-project",
+    "description": "Proyek OOP PHP komprehensif untuk demonstrasi 20 konsep.",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gemini AI",
+            "email": "ai@google.com"
+        }
+    ],
+    "require": {}
+}

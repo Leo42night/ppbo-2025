@@ -1,0 +1,41 @@
+<?php
+trait Pesan {
+    public function tampilPesan() {
+        echo "Halo, ini adalah pesan dari trait ya!\n";
+    }
+}
+
+trait Logger {
+    public function log($pesan) {
+        echo "[LOG]: " . $pesan . "\n";
+    }
+}
+
+class User {
+    use Pesan;
+    use Logger;
+
+    private $nama;
+
+    public function __construct($nama) {
+        $this->nama = $nama;
+    }
+
+    public function getNama() {
+        return $this->nama;
+    }
+}
+
+class Admin extends User {
+    use Logger; 
+}
+
+// MAIN
+$user1 = new User("Atha");
+$admin1 = new Admin("Jihan");
+
+$user1->tampilPesan();
+$user1->log("User " . $user1->getNama() . " berhasil login.");
+$admin1->log("Admin " . $admin1->getNama() . " menghapus data.");
+?>
+
