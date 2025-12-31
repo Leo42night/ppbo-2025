@@ -10,6 +10,12 @@ Asisten Dosen:
 Program Studi Sistem Informasi <br>
 Universitas Tanjungpura
 
+# Tugas Lembar Kerja
+- [#5 Object & Enkapsulasi](https://docs.google.com/document/d/1pu9GWiRFjszmq_w7u9nt_Y3k1q_1g7BfKzPskUXsn9w/edit?usp=sharing)
+- [#6 Costructor & Destructor](https://docs.google.com/document/d/1D0Ia3L_ydQULecqi4EUCWDpoFM6gb7_6G7DGsYS2FuU/edit?usp=sharing)
+- [#11 Simple CRUD](https://docs.google.com/presentation/d/1jVHfVnCXIWBBCXHTVILulmkNUijqE3xDqvvsp3WqrxQ/edit?usp=sharing)
+- [#12 MVC Deployment - Tab **Project** & **Host Railway**](https://docs.google.com/document/d/1fSsC26OzvBH3g5h1anPcSVIvC7hsTC08MKssoPeiVpQ/edit?usp=sharing)
+  
 ## Project
 Project that used in class session:
 - #13 Rest API - https://github.com/Leo42night/rest-api
