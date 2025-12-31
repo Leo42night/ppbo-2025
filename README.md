@@ -25,4 +25,4 @@ For Exhibition & voting Capstone Project:
 - Virtual Pameran - https://github.com/Leo42night/gim-ppbo-2025
 
 ## File
-- [Class File Drive](https://drive.google.com/drive/folders/1EYg92Uch-1VDgF32V9_qc9B4SUxJsllh?usp=drive_link)
+- [Class File Drive](https://drive.google.com/drive/folders/1j7ZtdlA8cAumYxESlkFU6e9AGi5RkuUfUKgsSpQFqMS6tYlXJEIxhY_OX7Fp3KW2Hme_kBBW?usp=drive_link)
