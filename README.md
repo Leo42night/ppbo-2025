@@ -24,5 +24,11 @@ Project that not yet used in submission session:
 For Exhibition & voting Capstone Project:
 - Virtual Pameran - https://github.com/Leo42night/gim-ppbo-2025
 
+New Project Ideas:
+- Chat App
+
 ## File
 - [Class File Drive](https://drive.google.com/drive/folders/1j7ZtdlA8cAumYxESlkFU6e9AGi5RkuUfUKgsSpQFqMS6tYlXJEIxhY_OX7Fp3KW2Hme_kBBW?usp=drive_link)
+
+## Tool
+- **gh-down.cmd**: script terminal cmd untuk download folder/file tertentu di repo.
